@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="请求的页面" method='POST'>
+        <input type="text" required autocomplete>
+        <input type="submit" value='提交'>
+        <br>
+        <!--多选框-->
+        <input type="checkbox">男
+        <input type="checkbox">女
+        <br>
+        <!--单选框 必须有相同的name属性-->
+        <input type="radio" name='ov'>男
+        <input type="radio" name='ov'>女
+        <br>
+        <!--上传文件和上传多个文件-->
+        <input type="file">
+        <input type="file" multiple>
+        <br>
+        <!--按钮 不写value值 默认是 submit提交页面功能-->
+        <button type=''>提交</button>
+        <input type="password">
+        <br>
+        <input type="color">
+        看不见我把：<input type="hidden">
+        <br>
+        <textarea name="" id="" cols="30" rows="10" style="resize: none"></textarea>
+        <br>
+        <select>
+            <option value="">- 请选择 -</option>
+            <option value="1">星期一</option>
+            <option value="2">星期2</option>
+        </select>
+    </form>
+</body>
+</html>
